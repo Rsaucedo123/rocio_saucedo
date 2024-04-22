@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 70px 0 0 0;
+    background-color:rgba(198, 250, 142, 0.038);
+    }
+
+.imagenes{
+        height: 550px;
+        width: 700px;
+        max-width:700px;
+        margin: 5px 0 0 300px;
+    }
+.titulo{
+color:rgb(49, 159, 49);
+text-align: center;
+font-family: "Castoro Titling", serif;
+font-weight: 700;
+font-style: normal;
+margin-top: 80px;
+transition: 1s;
+padding: 7px;
+}
+.titulo:hover{
+background-color: rgba(43, 153, 43, 0.457);
+
+}
+.primer_subtitulo{
+text-align: center;
+margin: 45px 90px 30px 90px;
+font-family: "Suravaram", serif;
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+
+}
+.subtitulo{
+text-align: center;
+font-family: "Suravaram", serif;
+font-weight: 400;
+font-style: normal;
+
+}
+.linea{
+color:rgb(210, 210, 124);
+text-align: center;
+transition: 0.5s;
+ /* --> SACAR EL ESPACIADO*/
+}
+.linea:hover{
+color: rgb(101, 101, 47);
+}
+h5{
+    padding: 7px;
+    color:rgb(49, 159, 49);
+    text-align: center;
+    font-family: "Castoro Titling", serif;
+    font-weight: 700;
+    font-style: normal;
+    transition: 0.5s;
+}
+h5:hover{
+    background-color: rgba(43, 153, 43, 0.457);
+   
+}
+
+ul{
+    text-align: center;
+    
+}
+
+
+li{
+    list-style-type:none;
+}
+
+
+@media (max-width: 991px) {
+    .footer{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}

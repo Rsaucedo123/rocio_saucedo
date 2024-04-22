@@ -1,0 +1,104 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: rgb(232, 242, 233);
+  transition: left 0.3s;
+  z-index: 2;
+  
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.abrir-menu {
+  margin: 15px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #397b1d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  padding: 5px;
+  z-index: 5;
+  transition: left 0.3s;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.abrir-menu::after {
+  content: attr(data-open);
+  
+}
+
+#toggle-menu:checked+.abrir-menu::after {
+  content: attr(data-close);
+}
+
+.lista-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 70px;
+  
+}
+.lista-menu{
+  margin: 105px 15px 0px 0px;
+}
+
+.lista-menu li {
+ 
+  padding: 8px 0;
+}
+
+.lista-menu a {
+  text-decoration: none;
+  color:black;
+  font-size: 21px;
+  display: block;
+  /*padding: 0px 23px;*/
+  transition: background-color 0.3s;
+  font-family: "Suravaram", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lista-menu a:hover {
+  background-color:rgb(43, 153, 43);
+}
+
+#toggle-menu:checked~.menu {
+  left: 0;
+}
+
+
+#toggle-menu:checked~.contenido {
+  position: absolute;
+  background-color: rgba(56, 131, 56, 0.109);
+
+}
+
+.contenido {
+  transition: background-color 0.3s;
+}
+
+.escudo_menu{
+  width: 130px;
+  height: auto;
+  margin: 40px 45px 15px 40px;
+  transition: transform 0.5s;
+}
+.escudo_menu:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+

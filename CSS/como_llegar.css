@@ -1,0 +1,27 @@
+body{
+padding: 0;
+margin: 100px 0 0 0;
+}
+
+.contenedor-video,
+.contenedor-mapa {
+   text-align: center;
+   justify-content: center;
+   margin-top: 100px;
+   max-width: 100%;
+}
+div .video{
+    border-radius: 45%;
+    width: 100%;
+}
+
+
+@media (min-width: 991px) {
+    div .video{
+        width: 700px;
+    }
+    .contenedor-mapa iframe {
+        width: 700px;
+        height: 400px;
+    }
+}
