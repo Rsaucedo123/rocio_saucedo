@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/nav.css">
     <link rel="stylesheet" href="../CSS/footer.css">
@@ -132,8 +135,29 @@
     </div>
 
 
-
-
+    <h1 class="titulo"><a name="contacto">CONTACTO</a></h1>
+    <p class="titulo2">Dejanos tus preguntas, y te contestaremos a la brevedad </p>
+    <div class="formulario">
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">Correo electrónico:</label>
+          <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+          <label for="msg">Mensaje:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+      </ul>
+      <li class="button">
+        <button type="submit">Envíe su mensaje</button>
+      </li>
+    </form>
+  </div>
     <footer><a name="contacto"></a>       
         <div class="info">
           <div class="dominio">

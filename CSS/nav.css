@@ -4,10 +4,9 @@
   left: -250px;
   width: 250px;
   height: 100%;
-  background-color: rgb(232, 242, 233);
+  background-color: rgba(101, 184, 181, 0.837);
   transition: left 0.3s;
   z-index: 2;
-  
 }
 
 #toggle-menu {
@@ -21,7 +20,7 @@
   text-align: center;
   font-size: 18px;
   color: #fff;
-  background-color: #397b1d;
+  background-color: #0f0f0fe5;
   position: fixed;
   top: 0;
   left: 0;
@@ -45,32 +44,24 @@
 .lista-menu {
   list-style: none;
   padding: 0;
-  margin-top: 70px;
-  
-}
-.lista-menu{
-  margin: 105px 15px 0px 0px;
-}
-
-.lista-menu li {
- 
-  padding: 8px 0;
+  margin-top: 100px; 
 }
 
 .lista-menu a {
   text-decoration: none;
   color:black;
-  font-size: 21px;
+  font-size: 27px;
   display: block;
   /*padding: 0px 23px;*/
   transition: background-color 0.3s;
   font-family: "Suravaram", serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.9;
 }
 
 .lista-menu a:hover {
-  background-color:rgb(43, 153, 43);
+  background-color:rgba(190, 223, 123, 0.514);
 }
 
 #toggle-menu:checked~.menu {
@@ -97,8 +88,3 @@
 .escudo_menu:hover{
   transform: scale(1.2);
 }
-
-
-
-
-

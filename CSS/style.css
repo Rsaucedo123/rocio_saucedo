@@ -1,54 +1,137 @@
 body{
     padding: 0;
-    margin: 70px 0 0 0;
-    background-color:rgba(198, 250, 142, 0.038);
+    margin: 0;
+    background-color:rgba(190, 223, 123, 0.133);
+    }
+
+.foto{
+    background-image: url('../img/ocho.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#ffffff;
+    height: 500px;
+}
+
+.foto1{
+    background-image: url('../img/ensaimada.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#ffffff;
+    height: 500px;
+    }
+
+.foto2{
+    background-image: url('../img/cabalgata.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#ffffff;
+    height: 500px;
+    }
+
+.foto4{
+    background-image: url('../img/imagen_campo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#ffffff;
+    height: 500px;
+    }
+.foto5{
+    background-image: url('../img/Club_de_pelota_-_San_Pedro.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#ffffff;
+    height: 500px;
     }
 
 .imagenes{
-        height: 550px;
-        width: 700px;
-        max-width:700px;
-        margin: 5px 0 0 300px;
+    height: 550px;
+    width: 700px;
+    max-width:700px;
+    margin: 5px 0 0 300px;
     }
+
+.titulo1{
+    font-size: 60px;
+    color:rgb(24, 147, 134);
+    background-color:rgba(24, 147, 135, 0.108);
+    text-align: center;
+    font-family: "Glass Antiqua", cursive;
+    font-weight: 550;
+    font-style: normal;
+    margin-top: 80px;
+    transition: 1s;
+    padding: 25px;
+   }
+
 .titulo{
-color:rgb(49, 159, 49);
+font-size: 40px;
+color:rgb(24, 147, 134);
+background-color:rgba(24, 147, 135, 0.108);
 text-align: center;
-font-family: "Castoro Titling", serif;
-font-weight: 700;
+font-family: "Glass Antiqua", cursive;
+font-weight: 500;
 font-style: normal;
 margin-top: 80px;
 transition: 1s;
-padding: 7px;
+padding: 20px;
 }
+
+.titulo2{
+    font-size: 18px;
+    color:black;
+    text-align: center;
+    font-family: "Glass Antiqua", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 7px;
+    }
+.titulo1:hover,
 .titulo:hover{
-background-color: rgba(43, 153, 43, 0.457);
+background-color: rgba(24, 147, 135, 0.433);
 
 }
 .primer_subtitulo{
 text-align: center;
-margin: 45px 90px 30px 90px;
+margin: 125px 90px 110px 90px;
 font-family: "Suravaram", serif;
-font-size: 20px;
+font-size: 22px;
 font-weight: 400;
 font-style: normal;
-
+line-height: 1.2;
 }
+
 .subtitulo{
 text-align: center;
 font-family: "Suravaram", serif;
 font-weight: 400;
 font-style: normal;
-
 }
+
+h2{
+font-size: 15px;
+text-align: center;
+font-family: "Suravaram", serif;
+font-weight: 400;
+font-style: normal;
+margin-top:-35px;
+}
+
 .linea{
-color:rgb(210, 210, 124);
+color:rgb(231, 210, 239);
 text-align: center;
 transition: 0.5s;
  /* --> SACAR EL ESPACIADO*/
 }
+
 .linea:hover{
 color: rgb(101, 101, 47);
 }
+
 h5{
     padding: 7px;
     color:rgb(49, 159, 49);
@@ -58,6 +141,7 @@ h5{
     font-style: normal;
     transition: 0.5s;
 }
+
 h5:hover{
     background-color: rgba(43, 153, 43, 0.457);
    
@@ -73,6 +157,57 @@ li{
     list-style-type:none;
 }
 
+div .formulario{
+    
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid white;
+        border-radius: 1em;
+      }
+      
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      form li, li {
+        margin-top: 1em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input,
+      textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+      }
+      
+      input:focus,
+      textarea:focus {
+        border-color: #000;
+      }
+      
+      textarea {
+        vertical-align: top;
+        height: 5em;
+      }
+      
+      button {
+        margin-left: 630px;
+        
+      }
+      
+ 
+
+
 
 @media (max-width: 991px) {
     .footer{
@@ -80,4 +215,19 @@ li{
         justify-content: center;
         align-items: center;
     }
+   
+    .linea{
+        margin-top: -10px;
+    }
+    .primer_subtitulo{
+    height: 60%;
+    margin:60px 20px 60px 20px;       
+    }
+    .escudo{
+        margin-top:25px;
+    }
+    button {
+        margin-left:47%;
+        padding:0;
+      }
 }
